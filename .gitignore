@@ -1,0 +1,14 @@
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+.env
+.env.*
+node_modules/
+.vercel/
+
+# Design-tool export (not used in production)
+Main.dc.html
+support.js
+vendor/

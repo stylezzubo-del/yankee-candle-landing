@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>우리 집에 어울리는 향 찾기 | 양키캔들 라지자 캔들 무료 향 상담</title>
+<meta name="description" content="공간과 취향을 알려주시면 향 선택 가이드를 이메일로 안내해 드립니다. 약 2~3분, 무료 향 상담 신청.">
+<meta property="og:title" content="우리 집에 어울리는 향부터 찾아보세요">
+<meta property="og:description" content="무료 향 상담 신청 · 향 선택 가이드를 이메일로 받아보세요.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&amp;family=Noto+Serif+KR:wght@600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+*{box-sizing:border-box}
+.pg{font-family:'Noto Sans KR',Pretendard,-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;color:#264653;background:#F5F1E8;line-height:1.7;font-size:16px}
+.pg h1,.pg h2,.num{font-family:'Noto Serif KR','Nanum Myeongjo',Georgia,serif}
+.pg h1,.pg h2{margin:0;line-height:1.35;letter-spacing:-0.01em}
+.pg p{margin:0}
+.sec{padding:88px 24px}
+.in{max-width:1040px;margin:0 auto}
+.dk{background:#264653;color:#F5F1E8}
+.num{color:#D98C78;font-size:15px;font-weight:700;letter-spacing:.1em;margin-bottom:14px}
+.h2{font-size:32px}
+.sub{margin-top:20px;font-size:18px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.hero{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center}
+.card{background:#fff;border-radius:16px;padding:26px;border-top:3px solid #D98C78}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 30px;border-radius:999px;background:#D98C78;color:#1d3540;font-weight:700;text-decoration:none;transition:transform .25s ease,box-shadow .25s ease}
+.btn:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.pulse{animation:pl 2.8s ease-in-out infinite}
+.fl{transform-origin:50% 100%;animation:fk 3s ease-in-out infinite}
+.gl{animation:br 4s ease-in-out infinite}
+.sm{animation:sk 5s ease-out infinite}
+.ph{color:#8a4a38;font-weight:700}
+.dash{border:2px dashed #b8a99a;border-radius:16px;min-height:220px;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;color:#6b5a50}
+.dk .dash{border-color:#5f7f8c;color:#cfd8d6}
+.st{color:#D98C78;letter-spacing:3px;font-size:18px}
+.st span{animation:tw .6s ease-out both}
+.st span:nth-child(2){animation-delay:.15s}.st span:nth-child(3){animation-delay:.3s}.st span:nth-child(4){animation-delay:.45s}.st span:nth-child(5){animation-delay:.6s}
+.sl{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;padding:8px 2px 16px;margin-top:32px}
+.rv{flex:0 0 min(320px,82%);scroll-snap-align:start}
+.stp{display:flex;gap:14px;align-items:flex-start;padding:14px 0}
+.stp b.n{flex:0 0 36px;height:36px;border-radius:50%;background:#D98C78;color:#1d3540;display:flex;align-items:center;justify-content:center}
+.mock{background:#F5F1E8;color:#264653;border-radius:20px;padding:26px}
+.pb{height:8px;border-radius:8px;background:#d9d2c3;overflow:hidden}
+.pb i{display:block;height:100%;width:100%;transform-origin:left;transform:scaleX(.111);background:#D98C78;animation:pf 2s ease-out}
+.opt{display:flex;align-items:center;min-height:48px;padding:0 16px;margin-top:10px;border:1px solid #b8b0a0;border-radius:10px;background:#fff}
+details{background:#fff;border-radius:12px;margin-bottom:12px;padding:0 22px}
+summary{min-height:56px;display:flex;align-items:center;cursor:pointer;font-weight:700;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";margin-left:auto;color:#a8543f;font-size:24px;transition:transform .3s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{padding:0 0 20px;color:#3d5560}
+.bar{display:none}
+@keyframes fk{0%,100%{transform:rotate(-2deg) scaleY(1)}50%{transform:rotate(2deg) scaleY(1.08)}}
+@keyframes br{0%,100%{opacity:.5;transform:scale(1)}50%{opacity:.95;transform:scale(1.1)}}
+@keyframes sk{0%{opacity:0;transform:translateY(16px)}30%{opacity:.5}100%{opacity:0;transform:translateY(-34px)}}
+@keyframes pl{0%,100%{box-shadow:0 0 0 0 rgba(217,140,120,.55)}50%{box-shadow:0 0 0 14px rgba(217,140,120,0)}}
+@keyframes tw{from{opacity:.15}to{opacity:1}}
+@keyframes pf{from{transform:scaleX(0)}to{transform:scaleX(.111)}}
+@keyframes fu{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+@supports (animation-timeline:view()){.fu{animation:fu .7s ease-out both;animation-timeline:view();animation-range:entry 0% entry 45%}}
+@media(max-width:760px){
+.sec{padding:56px 20px}.hero,.two{grid-template-columns:1fr;gap:28px}.h2{font-size:25px}.hero h1{font-size:28px!important}.sub{font-size:16px}
+.bar{display:flex;position:sticky;bottom:0;z-index:5;padding:10px 16px;background:#264653;box-shadow:0 -6px 20px rgba(0,0,0,.25)}
+.bar .btn{flex:1;padding:0 16px}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="pg">
+
+<!-- 01 HERO: 로고만, 내비게이션 없음 -->
+<section class="sec dk" style="padding-top:28px;padding-bottom:64px">
+<div class="in">
+<p class="num" style="font-size:18px;margin-bottom:36px;color:#F5F1E8">YANKEE CANDLE</p>
+<div class="hero">
+<div>
+<p class="num">01</p>
+<h1 style="font-size:44px">집 냄새가 신경 쓰인다면,<br>우리 집에 어울리는 <span style="color:#D98C78">향</span>부터 찾아보세요.</h1>
+<p class="sub" style="color:#E6E0D2">퇴근 후 편안하게 쉬고 싶은 우리 집. 공간과 취향에 맞는 향을 찾는 것부터 시작해 보세요.</p>
+<p style="margin-top:28px"><a class="btn pulse" href="[구글폼 URL]">무료 향 상담 신청하기 &gt;</a></p>
+<!-- CTA 링크: href="[구글폼 URL]"을 실제 구글폼 주소로 교체 -->
+<p style="margin-top:12px;font-size:14px;color:#cfd8d6">약 2~3분 · 신청 후 향 선택 가이드를 이메일로 보내드려요</p>
+</div>
+<div style="display:flex;justify-content:center">
+<!-- 비주얼: SVG 거실 일러스트 (실제 사진으로 교체 가능) -->
+<svg viewBox="0 0 320 360" width="340" style="max-width:100%;height:auto;border-radius:24px" role="img" aria-label="따뜻한 조명의 거실 소파에서 편안히 쉬는 여성과 불이 켜진 캔들">
+<defs><clipPath id="rc"><rect width="320" height="360" rx="24"></rect></clipPath><radialGradient id="g" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#D98C78" stop-opacity=".6"></stop><stop offset="1" stop-color="#D98C78" stop-opacity="0"></stop></radialGradient></defs>
+<g clip-path="url(#rc)">
+<rect width="320" height="360" fill="#F5F1E8"></rect>
+<rect y="296" width="320" height="64" fill="#E3D9C4"></rect>
+<rect x="112" y="34" width="112" height="112" rx="6" fill="#CFDAD8" stroke="#264653" stroke-width="3"></rect>
+<path d="M168 34v112M112 90h112" stroke="#264653" stroke-width="3"></path>
+<circle class="gl" cx="42" cy="110" r="96" fill="url(#g)"></circle>
+<path d="M40 96V204" stroke="#264653" stroke-width="4"></path>
+<path d="M22 96l8-34h20l8 34z" fill="#D98C78"></path>
+<rect x="30" y="196" width="22" height="8" rx="3" fill="#264653"></rect>
+<rect x="46" y="176" width="190" height="96" rx="22" fill="#3b6272"></rect>
+<rect x="34" y="236" width="214" height="62" rx="18" fill="#264653"></rect>
+<rect x="22" y="214" width="34" height="84" rx="15" fill="#2f5260"></rect>
+<rect x="228" y="214" width="34" height="84" rx="15" fill="#2f5260"></rect>
+<rect x="66" y="196" width="48" height="48" rx="12" fill="#D98C78"></rect>
+<rect x="120" y="196" width="64" height="76" rx="28" fill="#E9C3B8"></rect>
+<circle cx="150" cy="176" r="17" fill="#EAC9B3"></circle>
+<path d="M132 176c-2-20 34-24 36-2-8-6-20-8-36 2z" fill="#3a2a24"></path>
+<rect x="150" y="268" width="96" height="24" rx="12" fill="#1f3a46"></rect>
+<rect x="268" y="262" width="44" height="40" rx="5" fill="#264653"></rect>
+<rect x="278" y="236" width="24" height="26" rx="5" fill="#D98C78"></rect>
+<circle class="gl" cx="290" cy="222" r="34" fill="url(#g)"></circle>
+<path class="sm" d="M290 214c-7-8 7-14 0-24" stroke="#264653" stroke-opacity=".45" stroke-width="2.5" fill="none" stroke-linecap="round"></path>
+<path class="fl" d="M290 210c7 8 9 14 5 20-3 4-9 4-10 0-3-6-1-12 5-20z" fill="#F5C38F"></path>
+</g></svg>
+</div>
+</div>
+</div>
+</section>
+
+<div>
+<!-- 02 고객 문제 공감 -->
+<section class="sec">
+<div class="in two">
+<div class="fu">
+<p class="num">02</p>
+<h2 class="h2">하루 종일 일하고 돌아온 집,<br>냄새부터 신경 쓰이시나요?</h2>
+<p class="sub">쉬고 싶은데 은근한 생활 냄새가 거슬리고, 집안 분위기까지 아쉽게 느껴지는 순간이 있죠.</p>
+</div>
+<!-- 비주얼: SVG 일러스트 (실제 사진으로 교체 가능) -->
+<div class="fu"><svg viewBox="0 0 360 240" style="width:100%;height:auto;display:block;border-radius:16px" role="img" aria-label="퇴근 후 현관에서 가방을 내려놓는 지친 여성">
+<rect width="360" height="240" fill="#EAE3D2"></rect>
+<rect y="206" width="360" height="34" fill="#D9CFB8"></rect>
+<rect x="24" y="24" width="112" height="182" rx="4" fill="#264653"></rect>
+<circle cx="120" cy="120" r="6" fill="#D98C78"></circle>
+<rect x="150" y="150" width="34" height="56" rx="4" fill="#C9BEA6"></rect>
+<rect x="212" y="104" width="42" height="68" rx="20" fill="#6b8a97"></rect>
+<g transform="rotate(12 233 84)"><circle cx="233" cy="84" r="16" fill="#EAC9B3"></circle><path d="M216 84c-3-20 35-22 34 0-8-7-22-8-34 0z" fill="#3a2a24"></path></g>
+<rect x="214" y="168" width="14" height="40" rx="6" fill="#264653"></rect>
+<rect x="238" y="168" width="14" height="40" rx="6" fill="#264653"></rect>
+<path d="M214 114c-6 20-6 40-2 54" stroke="#6b8a97" stroke-width="12" stroke-linecap="round" fill="none"></path>
+<path d="M296 176c0-14 28-14 28 0" stroke="#264653" stroke-width="3" fill="none"></path>
+<rect x="290" y="176" width="40" height="30" rx="6" fill="#D98C78"></rect>
+</svg></div>
+</div>
+</section>
+
+<!-- 03 문제의 원인 -->
+<section class="sec" style="border-top:1px solid #e0d8c8">
+<div class="in">
+<p class="num">03</p>
+<h2 class="h2">좋은 향이라고 모두 우리 집에<br>잘 어울리는 건 아니니까요.</h2>
+<p class="sub">생활 환경과 취향이 다르면, 같은 향도 느껴지는 분위기가 달라요.</p>
+<div class="two" style="margin-top:36px;align-items:stretch;gap:20px">
+<div class="card fu"><h3 style="margin:0 0 8px;font-size:19px">공간마다 다른 생활 환경</h3><p>거실, 침실, 주방처럼 머무는 시간과 공기의 흐름이 달라요.</p></div>
+<div class="card fu"><h3 style="margin:0 0 8px;font-size:19px">취향에 따라 다른 향 선택</h3><p>포근한 향이 편한 날도, 상쾌한 향이 맞는 날도 있어요.</p></div>
+</div>
+<p style="margin-top:24px;color:#4a6470">냄새의 원인은 환기와 청소로 관리하고, 향은 원하는 분위기를 더하는 역할이에요. 그래서 고르는 기준이 필요해요.</p>
+</div>
+</section>
+
+<!-- 04 해결 방법 -->
+<section class="sec dk">
+<div class="in two" style="align-items:start">
+<div>
+<p class="num">04</p>
+<h2 class="h2 fu">간단한 질문으로 우리 집에 어울리는 향을 찾아보세요.</h2>
+<div style="margin-top:20px">
+<div class="stp fu"><b class="n">1</b><div><b>공간 선택</b><p style="color:#E6E0D2">거실 · 침실 · 주방 등</p></div></div>
+<div class="stp fu"><b class="n">2</b><div><b>고민 선택</b><p style="color:#E6E0D2">생활 냄새 · 분위기 · 향 선택의 어려움</p></div></div>
+<div class="stp fu"><b class="n">3</b><div><b>취향 선택</b><p style="color:#E6E0D2">포근한 · 상쾌한 · 은은한 향</p></div></div>
+<div class="stp fu"><b class="n">4</b><div><b>향 선택 가이드</b><p style="color:#E6E0D2">응답을 참고한 가이드를 이메일로 받아요</p></div></div>
+</div>
+<p style="margin-top:20px"><a class="btn " href="[구글폼 URL]">우리 집 향 상담 시작하기</a></p>
+<!-- CTA 링크: href="[구글폼 URL]"을 실제 구글폼 주소로 교체 -->
+</div>
+<div class="mock fu" aria-label="우리 집 향 상담 폼 미리보기">
+<p style="font-weight:700;margin-bottom:14px">우리 집 향 상담</p>
+<div class="pb"><i></i></div>
+<p style="margin-top:6px;font-size:14px;color:#4a6470">1 / 9</p>
+<p style="margin-top:16px;font-weight:700">향을 사용할 공간은 어디인가요?</p>
+<div class="opt">거실</div><div class="opt">침실</div><div class="opt">주방</div><div class="opt">현관</div>
+</div>
+</div>
+</section>
+
+<!-- 05 후기 -->
+<section class="sec">
+<div class="in">
+<p class="num">05</p>
+<h2 class="h2">향을 선택하기 전,<br>실제 고객의 이야기를 확인해 보세요.</h2>
+<p class="sub">후기 키워드: “향이 좋다” <span class="ph">[실제 후기 기준 확인]</span></p>
+<div class="sl"><div class="card rv"><p class="st" aria-label="별점 [확인 필요]"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></p><p class="ph">[실제 리뷰 원문 · 출처 · 작성일 · 사용 허가 확인 후 교체]</p><p style="margin-top:10px;color:#5b6f77;font-size:14px">[작성자 표기] · 후기 1</p><p style="margin-top:10px;font-size:12px;color:#8a4a38;border-top:1px dashed #d9c9bd;padding-top:8px">예시 문구 — 실제 후기로 교체 필요</p></div><div class="card rv"><p class="st" aria-label="별점 [확인 필요]"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></p><p class="ph">[실제 리뷰 원문 · 출처 · 작성일 · 사용 허가 확인 후 교체]</p><p style="margin-top:10px;color:#5b6f77;font-size:14px">[작성자 표기] · 후기 2</p><p style="margin-top:10px;font-size:12px;color:#8a4a38;border-top:1px dashed #d9c9bd;padding-top:8px">예시 문구 — 실제 후기로 교체 필요</p></div><div class="card rv"><p class="st" aria-label="별점 [확인 필요]"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></p><p class="ph">[실제 리뷰 원문 · 출처 · 작성일 · 사용 허가 확인 후 교체]</p><p style="margin-top:10px;color:#5b6f77;font-size:14px">[작성자 표기] · 후기 3</p><p style="margin-top:10px;font-size:12px;color:#8a4a38;border-top:1px dashed #d9c9bd;padding-top:8px">예시 문구 — 실제 후기로 교체 필요</p></div></div>
+</div>
+</section>
+
+<!-- 06 FAQ -->
+<section class="sec" style="padding-top:24px">
+<div class="in" style="max-width:720px">
+<p class="num">06</p>
+<h2 class="h2" style="margin-bottom:28px">향을 직접 맡아보지 못해 고민되시나요?</h2>
+<details><summary>향을 직접 맡아보지 못해도 선택할 수 있나요?</summary><p>선호하는 향 계열과 공간을 기준으로 후보를 좁힐 수 있어요. 다만 실제 향의 느낌은 사람마다 다를 수 있어요.</p></details>
+<details><summary>향초가 집 냄새를 없애주나요?</summary><p>아니요. 향초는 공간에 향을 더하는 제품이고, 냄새의 원인을 없애는 제품은 아니에요. 환기·청소와 함께 쓰면 더 좋아요.</p></details>
+<details><summary>3만 원대 제품을 고를 때 무엇을 확인해야 하나요?</summary><p>향 계열, 사용 공간, 용량과 사용 안내를 확인해 보세요. <span class="ph">[제품 정보 확인 필요]</span></p></details>
+<details><summary>상담 신청 후에는 무엇을 받나요?</summary><p>실시간 전화·방문 상담이 아니에요. 설문 응답을 참고한 향 선택 가이드를 이메일로 보내드려요.</p></details>
+<details><summary>캔들은 어떻게 안전하게 사용하나요?</summary><p>자리를 비울 때는 불을 꼭 꺼 주세요. <span class="ph">[공식 사용 안내 기준으로 확인 필요]</span></p></details>
+<p style="margin-top:24px"><a class="btn " href="[구글폼 URL]">무료 향 상담 신청하기</a></p>
+<!-- CTA 링크: href="[구글폼 URL]"을 실제 구글폼 주소로 교체 -->
+</div>
+</section>
+</div>
+<div class="bar"><a class="btn" href="[구글폼 URL]">무료 향 상담 신청하기</a></div>
+<!-- CTA 링크: href="[구글폼 URL]"을 실제 구글폼 주소로 교체 -->
+
+<!-- 07 최종 전환 (모바일 고정 바 숨김 영역) -->
+<section class="sec dk" style="text-align:center">
+<div class="in fu" style="max-width:640px">
+<p class="num">FIND YOUR HOME SCENT</p>
+<h2 class="h2">우리 집에 어울리는 향, 지금 찾아보세요.</h2>
+<p class="sub" style="color:#E6E0D2">공간과 취향을 알려주시면 향을 선택할 때 참고할 수 있는 가이드를 이메일로 안내해 드립니다.</p>
+<div class="card" style="margin-top:28px;text-align:left;color:#264653">
+<p style="font-weight:700;margin-bottom:8px">향 상담 신청 안내</p>
+<p>소요 시간: 약 2~3분</p>
+<p>입력 항목: 사용 공간, 고민, 원하는 분위기, 이메일 주소</p>
+<p>받을 수 있는 것: 향 선택 가이드 (이메일 발송)</p>
+</div>
+<p style="margin-top:28px"><a class="btn " href="[구글폼 URL]">무료 향 상담 신청하기 &gt;</a></p>
+<!-- CTA 링크: href="[구글폼 URL]"을 실제 구글폼 주소로 교체 -->
+<p style="margin-top:12px;font-size:14px;color:#cfd8d6">Google Form으로 이동 · 개인정보 수집·이용 안내 및 동의가 필요합니다</p>
+</div>
+</section>
+
+<footer class="dk" style="padding:28px 24px;text-align:center;font-size:14px;border-top:1px solid rgba(245,241,232,.2)">
+<a href="[개인정보 수집·이용 안내 URL]" style="color:#F5F1E8">개인정보 수집·이용 안내</a>
+<!-- 개인정보 안내 링크: 실제 주소로 교체 -->
+</footer>
+</div>
+</body>
+</html>
